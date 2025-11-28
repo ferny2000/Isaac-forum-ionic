@@ -1,0 +1,1770 @@
+{
+    "logros": [
+        {
+            "name": "The Radioactive Spider",
+            "description": "Completa el S\u00f3tano",
+            "how_to_unlock": "Completa The Basement 2.",
+            "image": ""
+        },
+        {
+            "name": "Monstro's Tooth",
+            "description": "Derrota a todos los jefes en el S\u00f3tano",
+            "how_to_unlock": "Derrota todos los tipos de jefes en The Basement (Duke of Flies, Monstro, Gemini, Larry Jr.)",
+            "image": ""
+        },
+        {
+            "name": "The Spelunker",
+            "description": "Completa las Cavernas",
+            "how_to_unlock": "Derrota al jefe en The Caves 2.",
+            "image": ""
+        },
+        {
+            "name": "Lil Chubby",
+            "description": "Derrota a todos los jefes en las Cavernas",
+            "how_to_unlock": "Derrota todos los tipos de jefes en The Caves (Fistula, Gurdy, Peep, Chub)",
+            "image": ""
+        },
+        {
+            "name": "I Killed Mom!",
+            "description": "Mata a Mam\u00e1...",
+            "how_to_unlock": "Derrota al jefe en The Depths 2.",
+            "image": ""
+        },
+        {
+            "name": "Loki's Horns",
+            "description": "Derrota a todos los jefes en las Profundidades",
+            "how_to_unlock": "Derrota todos los tipos de jefes en The Depths (Monstro II, Loki, Mom)",
+            "image": ""
+        },
+        {
+            "name": "Small Rock",
+            "description": "Me gusta romper cosas...",
+            "how_to_unlock": "Destruye 50 rocas a lo largo de varias partidas.",
+            "image": ""
+        },
+        {
+            "name": "The Bean",
+            "description": "No quieres saber d\u00f3nde ha estado este frijol...",
+            "how_to_unlock": "Destruye 50 montones de caca a lo largo de varias partidas.",
+            "image": ""
+        },
+        {
+            "name": "Mom's Bottle Of Pills",
+            "description": "\u00a1Mam\u00e1 necesita sus p\u00edldoras! Dona sangre",
+            "how_to_unlock": "Usa las M\u00e1quinas de Donaci\u00f3n de Sangre 20 veces en varias partidas.",
+            "image": ""
+        },
+        {
+            "name": "The Gamekid",
+            "description": "Perd\u00ed el m\u00edo en la Arcada...",
+            "how_to_unlock": "Entra en diferentes Arcadas 10 veces a lo largo de varias partidas.",
+            "image": ""
+        },
+        {
+            "name": "The Common Cold",
+            "description": "Sucia agujas... ugh",
+            "how_to_unlock": "Recoge dos de estos en una misma partida: Roid Rage, The Virus y Growth Hormones.",
+            "image": ""
+        },
+        {
+            "name": "Mr. Mega!",
+            "description": "Los ni\u00f1os no deben jugar con f\u00f3sforos",
+            "how_to_unlock": "Destruye 30 rocas X Marks the Spot a lo largo de varias partidas.",
+            "image": ""
+        },
+        {
+            "name": "The Book of Sin",
+            "description": "Destruye los 7 pecados!",
+            "how_to_unlock": "Derrota todos los Siete Pecados Mortales a lo largo de varias partidas.",
+            "image": ""
+        },
+        {
+            "name": "Mom's Contacts",
+            "description": "\u00a1Qu\u00e9date fuera de las cosas de mam\u00e1!",
+            "how_to_unlock": "Recoge el Ojo de Mam\u00e1 y cualquier otro \u00edtem de Mam\u00e1 en una sola partida.",
+            "image": ""
+        },
+        {
+            "name": "The Parasite",
+            "description": "Los ni\u00f1os no deben jugar con cosas muertas...",
+            "how_to_unlock": "Recoge dos \u00edtems 'muertos' (Bob's Rotten Head, Dead Cat, Max's Head, Tammy's Head) en la misma partida.",
+            "image": ""
+        },
+        {
+            "name": "The Necronomicon",
+            "description": "\u00a1Llama a la Muerte sobre todos ellos!",
+            "how_to_unlock": "Usa la carta del tarot XIII Death cuatro veces en varias partidas.",
+            "image": ""
+        },
+        {
+            "name": "The Halo",
+            "description": "\u00a1Dale a Mam\u00e1 un poco de su propia medicina!",
+            "how_to_unlock": "Derrota a Mam\u00e1 o el Coraz\u00f3n de Mam\u00e1 con La Biblia. (Usarla matar\u00e1 a Mam\u00e1 al instante.)",
+            "image": ""
+        },
+        {
+            "name": "The Bandage",
+            "description": "\u00a1Haz un Super Meat Boy!",
+            "how_to_unlock": "Mata a los 4 Jinetes del Apocalipsis en una sola partida.",
+            "image": ""
+        },
+        {
+            "name": "The Shears",
+            "description": "He perdido mi cabeza una vez de m\u00e1s...",
+            "how_to_unlock": "Muere 100 veces.",
+            "image": ""
+        },
+        {
+            "name": "Maggy's Wig",
+            "description": "Recoge 7 o m\u00e1s contenedores de coraz\u00f3n en una sola partida",
+            "how_to_unlock": "Ten un m\u00ednimo de siete contenedores de coraz\u00f3n en una sola partida.",
+            "image": ""
+        },
+        {
+            "name": "Cain's Eyepatch",
+            "description": "Recoge 55 o m\u00e1s centavos en una sola partida",
+            "how_to_unlock": "Ten 55 o m\u00e1s centavos en tu poder a la vez.",
+            "image": ""
+        },
+        {
+            "name": "Judas' Fez",
+            "description": "Completa el juego completo",
+            "how_to_unlock": "Derrota al jefe en The Womb 2.",
+            "image": ""
+        },
+        {
+            "name": "Eve's Dead Bird",
+            "description": "Haz 2 pactos con el diablo en una sola partida",
+            "how_to_unlock": "Haz dos pactos con el diablo en una sola partida.",
+            "image": ""
+        },
+        {
+            "name": "???",
+            "description": "Completa el juego completo 10 veces",
+            "how_to_unlock": "Derrota al Jefe en The Womb 2 por d\u00e9cima vez.",
+            "image": ""
+        },
+        {
+            "name": "My Head Hurts...",
+            "description": "Derrota a Steven.",
+            "how_to_unlock": "Derrota al jefe alternativo Steven.",
+            "image": ""
+        },
+        {
+            "name": "I need a hug...",
+            "description": "Derrota a C.H.A.D..",
+            "how_to_unlock": "Derrota al jefe alternativo C.H.A.D..",
+            "image": ""
+        },
+        {
+            "name": "I Have Sticker Fingers...",
+            "description": "Derrota a Gish.",
+            "how_to_unlock": "Derrota al jefe alternativo Gish.",
+            "image": ""
+        },
+        {
+            "name": "The Noose",
+            "description": "Completa el juego completo 2 veces",
+            "how_to_unlock": "Derrota al jefe en The Womb 2 por segunda vez.",
+            "image": ""
+        },
+        {
+            "name": "The Nail",
+            "description": "Completa el juego completo 3 veces",
+            "how_to_unlock": "Derrota al jefe en The Womb 2 por tercera vez.",
+            "image": ""
+        },
+        {
+            "name": "The Quarter",
+            "description": "Completa el juego completo 4 veces",
+            "how_to_unlock": "Derrota al jefe en The Womb 2 por cuarta vez.",
+            "image": ""
+        },
+        {
+            "name": "The Fetus",
+            "description": "Completa el juego completo 5 veces",
+            "how_to_unlock": "Derrota al jefe en The Womb 2 por quinta vez.",
+            "image": ""
+        },
+        {
+            "name": "Everything is Terrible!!!",
+            "description": "Completa el juego completo 6 veces",
+            "how_to_unlock": "Derrota al jefe en The Womb 2 por sexta vez.",
+            "image": ""
+        },
+        {
+            "name": "The Wafer",
+            "description": "Completa el juego completo 7 veces",
+            "how_to_unlock": "Derrota al jefe en The Womb 2 por s\u00e9ptima vez.",
+            "image": ""
+        },
+        {
+            "name": "Money = Power",
+            "description": "Completa el juego completo 8 veces",
+            "how_to_unlock": "Derrota al jefe en The Womb 2 por octava vez.",
+            "image": ""
+        },
+        {
+            "name": "It Lives!",
+            "description": "Completa el juego completo 9 veces",
+            "how_to_unlock": "Derrota al jefe en The Womb 2 por novena vez.",
+            "image": ""
+        },
+        {
+            "name": "The Cross",
+            "description": "Completa el juego completo con Maggy.",
+            "how_to_unlock": "Derrota al jefe en The Womb 2 con Maggy.",
+            "image": ""
+        },
+        {
+            "name": "The Bag",
+            "description": "Completa el juego completo con Cain.",
+            "how_to_unlock": "Derrota al jefe en The Womb 2 con Cain.",
+            "image": ""
+        },
+        {
+            "name": "The Robo-Baby",
+            "description": "Completa el juego completo con Judas",
+            "how_to_unlock": "Derrota al jefe en The Womb 2 con Judas.",
+            "image": ""
+        },
+        {
+            "name": "The Razor Blade",
+            "description": "Completa el Womb con Eve",
+            "how_to_unlock": "Derrota al jefe en The Womb 2 con Eve.",
+            "image": ""
+        },
+        {
+            "name": "The D6",
+            "description": "Completa el juego completo con ???.",
+            "how_to_unlock": "Derrota al jefe en The Womb 2 con ???.",
+            "image": ""
+        },
+        {
+            "name": "Golden God",
+            "description": "100% el juego",
+            "how_to_unlock": "Recoge todos los \u00edtems y secretos en el juego.",
+            "image": ""
+        }
+    ],
+    "cartas": [
+        {
+            "name": "The Fool",
+            "description": "Donde el viaje empieza",
+            "how_to_unlock": "Teletransporta al jugador a la habitaci\u00f3n inicial del piso actual.",
+            "id": "k1"
+        },
+        {
+            "name": "The Magician",
+            "description": "Que nunca pierdas tu meta",
+            "how_to_unlock": "Hace que las l\u00e1grimas se vuelvan ps\u00edquicas por una habitaci\u00f3n. El mismo efecto que Spoon Bender.",
+            "id": "k2"
+        },
+        {
+            "name": "The High Priestess",
+            "description": "Mam\u00e1 est\u00e1 vi\u00e9ndote",
+            "how_to_unlock": "Invoca un pie de Mam\u00e1 que intentar\u00e1 aplastar al enemigo con m\u00e1s salud. Si se invoca en una habitaci\u00f3n vac\u00eda o mientras se pelea contra Mom en Depths 2, este intentar\u00e1 pisar al jugador.",
+            "id": "k3"
+        },
+        {
+            "name": "The Empress",
+            "description": "Que tu furia traiga poder",
+            "how_to_unlock": "Convierte al jugador en un demonio, aumentando da\u00f1o y velocidad por una habitaci\u00f3n. El mismo efecto que Whore of Babylon. Se puede acumular el efecto de la misma carta.",
+            "id": "k4"
+        },
+        {
+            "name": "The Emperor",
+            "description": "\u00a1Desaf\u00edame!",
+            "how_to_unlock": "Teletransporta al jugador a la habitaci\u00f3n del jefe. Si se usa en la misma habitaci\u00f3n en medio de la batalla contra el jefe, igualmente lo teletransporta, reiniciando la batalla. Imposible de obtener en Greed Mode.",
+            "id": "k5"
+        },
+        {
+            "name": "The Hierophant",
+            "description": "Dos oraciones por el perdido",
+            "how_to_unlock": "Genera 2 corazones de alma.",
+            "id": "k6"
+        },
+        {
+            "name": "The Lovers",
+            "description": "Que prosperes y tengas buena salud",
+            "how_to_unlock": "Genera 2 corazones rojos.",
+            "id": "k7"
+        },
+        {
+            "name": "The Chariot",
+            "description": "Que nada se pare ante ti",
+            "how_to_unlock": "Vuelve al jugador invencible, incapaz de usar su ataque principal, pero en vez puede da\u00f1ar embistiendo a sus enemigos por un periodo de tiempo. El mismo efecto que My Little Unicorn.",
+            "id": "k8"
+        },
+        {
+            "name": "Justice",
+            "description": "Que tu futuro sea balanceado",
+            "how_to_unlock": "Genera una bomba, una moneda, una llave y un coraz\u00f3n.",
+            "id": "k9"
+        },
+        {
+            "name": "The Hermit",
+            "description": "Que veas lo que la vida te est\u00e1 ofreciendo",
+            "how_to_unlock": "Teletransporta al jugador a la tienda. Si no existe, teletransporta a Isaac a un lugar aleatorio. Imposible de obtener en Greed Mode.",
+            "id": "k10"
+        },
+        {
+            "name": "Wheel of Fortune",
+            "description": "Gira la rueda del destino",
+            "how_to_unlock": "Genera una m\u00e1quina de arcade o una m\u00e1quina de la fortuna.",
+            "id": "k11"
+        },
+        {
+            "name": "Strength",
+            "description": "Que tu poder traiga furia",
+            "how_to_unlock": "Aumenta todas las estad\u00edsticas por solo una habitaci\u00f3n, incluyendo la vida y el tama\u00f1o del jugador. Se puede acumular el efecto de la misma carta.",
+            "id": "k12"
+        },
+        {
+            "name": "The Hanged Man",
+            "description": "Que encuentres la iluminaci\u00f3n",
+            "how_to_unlock": "El jugador pierde el cuerpo, permiti\u00e9ndole volar por una habitaci\u00f3n. Mismo efecto que Transcendence.",
+            "id": "k13"
+        },
+        {
+            "name": "Death",
+            "description": "Destroza a todos los que se te opongan a ti",
+            "how_to_unlock": "Hace 40 de da\u00f1o masivamente a toda la habitaci\u00f3n. El mismo efecto que The Necronomicon.",
+            "id": "k14"
+        },
+        {
+            "name": "Temperance",
+            "description": "Que seas puro de coraz\u00f3n",
+            "how_to_unlock": "Genera una m\u00e1quina de donaci\u00f3n de sangre. Si es en Greed Mode genera un mendigo demon\u00edaco.",
+            "id": "k15"
+        },
+        {
+            "name": "The Devil",
+            "description": "Del\u00e9itese con el poder de la oscuridad",
+            "how_to_unlock": "Aumenta el da\u00f1o considerablemente por una habitaci\u00f3n. El mismo efecto que The Book of Belial.",
+            "id": "k16"
+        },
+        {
+            "name": "The Tower",
+            "description": "Destrucci\u00f3n trae creaci\u00f3n",
+            "how_to_unlock": "Hace aparecer bombas Troll por toda la habitaci\u00f3n. El mismo efecto que Anarchist Cookbook.",
+            "id": "k17"
+        },
+        {
+            "name": "The Stars",
+            "description": "Que encuentres lo que deseas",
+            "how_to_unlock": "Teletransporta al jugador a la habitaci\u00f3n del tesoro. Si no existe, teletransporta a Isaac a un lugar aleatorio. Imposible de obtener en Greed Mode.",
+            "id": "k18"
+        },
+        {
+            "name": "The Moon",
+            "description": "Que encuentres todo lo que has perdido",
+            "how_to_unlock": "Teletransporta al jugador a la habitaci\u00f3n secreta. Imposible de obtener en Greed Mode.",
+            "id": "k19"
+        },
+        {
+            "name": "The Sun",
+            "description": "Que la luz te cure y te ilumine",
+            "how_to_unlock": "Hace da\u00f1o masivo a toda la habitaci\u00f3n, cura toda la vida faltante del jugador y revela todo el mapa excepto la habitaci\u00f3n s\u00faper secreta.",
+            "id": "k20"
+        },
+        {
+            "name": "Judgement",
+            "description": "Juzga para que no seas juzgado",
+            "how_to_unlock": "Genera un mendigo.",
+            "id": "k21"
+        },
+        {
+            "name": "The World",
+            "description": "Abre tus ojos y mira",
+            "how_to_unlock": "Revela todo el mapa excepto la habitaci\u00f3n super secreta.",
+            "id": "k22"
+        },
+        {
+            "name": "2 of Clubs",
+            "description": "Multiplicador de objetos",
+            "how_to_unlock": "Duplica el n\u00famero de bombas que se tenga. Si no tiene, a\u00f1ade 2 bombas.",
+            "id": "k23"
+        },
+        {
+            "name": "2 of Diamonds",
+            "description": "Multiplicador de objetos",
+            "how_to_unlock": "Duplica el n\u00famero de centavos que se tenga. Si no tiene, a\u00f1ade 2 centavos.",
+            "id": "k24"
+        },
+        {
+            "name": "2 of Spades",
+            "description": "Multiplicador de objetos",
+            "how_to_unlock": "Duplica el n\u00famero de llaves que se tenga. Si no tiene, a\u00f1ade 2 llaves.",
+            "id": "k25"
+        },
+        {
+            "name": "2 of Hearts",
+            "description": "Multiplicador de objetos",
+            "how_to_unlock": "Cura el doble de la salud del jugador, solamente los corazones rojos. No duplica corazones de alma o negros ni genera contenedores de corazones rojos.",
+            "id": "k26"
+        },
+        {
+            "name": "Suicide King",
+            "description": "\u00bfUn fin verdadero?",
+            "how_to_unlock": "Mata instant\u00e1neamente al jugador y hace aparecer 9 recolectables de cualquier tipo y un objeto coleccionable.",
+            "id": "k46"
+        },
+        {
+            "name": "Joker",
+            "description": "???",
+            "how_to_unlock": "Teletransporta al jugador a la habitaci\u00f3n del pacto. La habitaci\u00f3n puede ser la habitaci\u00f3n del diablo o la habitaci\u00f3n del \u00e1ngel, dependiendo de la posibilidad que se tiene.",
+            "id": "k31"
+        },
+        {
+            "name": "Chaos Card",
+            "description": "El jugador lanza la carta hacia donde se mueva. La carta puede matar instant\u00e1neamente a cualquier enemigo, incluso jefes.",
+            "how_to_unlock": "Completa el desaf\u00edo #9 (Demo Man).",
+            "id": "k42"
+        },
+        {
+            "name": "Credit Card",
+            "description": "\u00a1C\u00e1rgala!",
+            "how_to_unlock": "Hace que todos los objetos que cuesten algo sean gratis.",
+            "id": "k43"
+        },
+        {
+            "name": "Rules Card",
+            "description": "???",
+            "how_to_unlock": "Hace aparecer un mensaje arriba de la pantalla, dando (o no) una pista \u00fatil.",
+            "id": "k44"
+        },
+        {
+            "name": "A Card Against Humanity",
+            "description": "Algo apesta...",
+            "how_to_unlock": "Llena totalmente la habitaci\u00f3n de popo. La popo puede ser destruida y soltar los objetos con normalidad.",
+            "id": "k45"
+        }
+    ],
+    "monstruos": {
+        "The Basement": [
+            {
+                "name": "Pooter",
+                "rarity": "common"
+            },
+            {
+                "name": "Fly",
+                "rarity": "common"
+            },
+            {
+                "name": "Gaper",
+                "rarity": "common"
+            },
+            {
+                "name": "Horf",
+                "rarity": "common"
+            },
+            {
+                "name": "Gusher",
+                "rarity": "common"
+            },
+            {
+                "name": "Hopper",
+                "rarity": "common"
+            },
+            {
+                "name": "Mulligan",
+                "rarity": "common"
+            },
+            {
+                "name": "Mulligoon",
+                "rarity": "common"
+            },
+            {
+                "name": "Clotty",
+                "rarity": "uncommon"
+            },
+            {
+                "name": "Clot",
+                "rarity": "common"
+            },
+            {
+                "name": "I. Blob",
+                "rarity": "very rare"
+            },
+            {
+                "name": "Spider",
+                "rarity": "common"
+            },
+            {
+                "name": "Moter",
+                "rarity": "common"
+            },
+            {
+                "name": "Sucker",
+                "rarity": "common"
+            },
+            {
+                "name": "Embryo",
+                "rarity": "common"
+            }
+        ],
+        "The Cellar": [
+            {
+                "name": "I. Blob",
+                "rarity": "very rare"
+            },
+            {
+                "name": "Clot",
+                "rarity": "common"
+            },
+            {
+                "name": "Sack",
+                "rarity": "common"
+            },
+            {
+                "name": "Gaper",
+                "rarity": "common"
+            },
+            {
+                "name": "Mulligan",
+                "rarity": "common"
+            },
+            {
+                "name": "Mulliboom",
+                "rarity": "uncommon"
+            },
+            {
+                "name": "Spider",
+                "rarity": "common"
+            },
+            {
+                "name": "Big Spider",
+                "rarity": "common"
+            },
+            {
+                "name": "Trite",
+                "rarity": "common"
+            }
+        ],
+        "The Caves": [
+            {
+                "name": "I. Blob",
+                "rarity": "very rare"
+            },
+            {
+                "name": "Boom Fly",
+                "rarity": "common"
+            },
+            {
+                "name": "Maggot",
+                "rarity": "common"
+            },
+            {
+                "name": "Charger",
+                "rarity": "common"
+            },
+            {
+                "name": "Clot",
+                "rarity": "common"
+            },
+            {
+                "name": "Clotty",
+                "rarity": "common"
+            },
+            {
+                "name": "Fly",
+                "rarity": "common"
+            },
+            {
+                "name": "Gusher",
+                "rarity": "common"
+            },
+            {
+                "name": "Hopper",
+                "rarity": "common"
+            },
+            {
+                "name": "Host",
+                "rarity": "common"
+            },
+            {
+                "name": "Hive",
+                "rarity": "common"
+            },
+            {
+                "name": "Maw",
+                "rarity": "common"
+            },
+            {
+                "name": "Moter",
+                "rarity": "common"
+            },
+            {
+                "name": "Spider",
+                "rarity": "common"
+            },
+            {
+                "name": "Trite",
+                "rarity": "common"
+            },
+            {
+                "name": "Spitty",
+                "rarity": "common"
+            },
+            {
+                "name": "Sucker",
+                "rarity": "common"
+            },
+            {
+                "name": "Embryo",
+                "rarity": "common"
+            },
+            {
+                "name": "Knight",
+                "rarity": "rare"
+            },
+            {
+                "name": "Selfless Knight",
+                "rarity": "rare"
+            },
+            {
+                "name": "Leaper",
+                "rarity": "rare"
+            },
+            {
+                "name": "Mr. Maw",
+                "rarity": "uncommon"
+            }
+        ],
+        "The Catacombs": [
+            {
+                "name": "Keeper",
+                "rarity": "common"
+            },
+            {
+                "name": "I. Blob",
+                "rarity": "very rare"
+            },
+            {
+                "name": "Buttlicker",
+                "rarity": "common"
+            },
+            {
+                "name": "Embryo",
+                "rarity": "common"
+            },
+            {
+                "name": "Mulliboom",
+                "rarity": "uncommon"
+            },
+            {
+                "name": "Psychic Maw",
+                "rarity": "common"
+            },
+            {
+                "name": "Spider",
+                "rarity": "common"
+            },
+            {
+                "name": "Fat Fly",
+                "rarity": "common"
+            },
+            {
+                "name": "Trite",
+                "rarity": "common"
+            },
+            {
+                "name": "Gurgle",
+                "rarity": "common"
+            },
+            {
+                "name": "Splasher",
+                "rarity": "common"
+            },
+            {
+                "name": "Walking Boil",
+                "rarity": "common"
+            },
+            {
+                "name": "Walking Gut",
+                "rarity": "common"
+            },
+            {
+                "name": "Walking Sack",
+                "rarity": "common"
+            }
+        ],
+        "The Depths": [
+            {
+                "name": "Baby",
+                "rarity": "common"
+            },
+            {
+                "name": "Boil",
+                "rarity": "common"
+            },
+            {
+                "name": "Boom Fly",
+                "rarity": "common"
+            },
+            {
+                "name": "Brain",
+                "rarity": "common"
+            },
+            {
+                "name": "Globin",
+                "rarity": "common"
+            },
+            {
+                "name": "Guts",
+                "rarity": "common"
+            },
+            {
+                "name": "Hive",
+                "rarity": "common"
+            },
+            {
+                "name": "Host",
+                "rarity": "common"
+            },
+            {
+                "name": "Knight",
+                "rarity": "common"
+            },
+            {
+                "name": "Selfless Knight",
+                "rarity": "rare"
+            },
+            {
+                "name": "Leaper",
+                "rarity": "common"
+            },
+            {
+                "name": "Leech",
+                "rarity": "common"
+            },
+            {
+                "name": "Embryo",
+                "rarity": "common"
+            },
+            {
+                "name": "Kamikaze Leech",
+                "rarity": "rare"
+            },
+            {
+                "name": "Mr. Maw",
+                "rarity": "common"
+            },
+            {
+                "name": "Moter",
+                "rarity": "common"
+            },
+            {
+                "name": "MemBrain",
+                "rarity": "very rare"
+            },
+            {
+                "name": "Pooter",
+                "rarity": "common"
+            },
+            {
+                "name": "Psychic Maw",
+                "rarity": "rare"
+            },
+            {
+                "name": "Spider",
+                "rarity": "common"
+            },
+            {
+                "name": "Vis",
+                "rarity": "common"
+            }
+        ],
+        "Necropolis": [
+            {
+                "name": "Angelic Baby",
+                "rarity": "uncommon"
+            },
+            {
+                "name": "Keeper",
+                "rarity": "common"
+            },
+            {
+                "name": "Mama Guts",
+                "rarity": "common"
+            },
+            {
+                "name": "I. Blob",
+                "rarity": "very rare"
+            },
+            {
+                "name": "Boom Fly",
+                "rarity": "common"
+            },
+            {
+                "name": "Buttlicker",
+                "rarity": "common"
+            },
+            {
+                "name": "Hanger",
+                "rarity": "common"
+            },
+            {
+                "name": "Mask + Heart",
+                "rarity": "common"
+            },
+            {
+                "name": "Mulliboom",
+                "rarity": "rare"
+            },
+            {
+                "name": "Spider",
+                "rarity": "common"
+            },
+            {
+                "name": "Slide",
+                "rarity": "common"
+            },
+            {
+                "name": "Swarmer",
+                "rarity": "common"
+            },
+            {
+                "name": "Embryo",
+                "rarity": "common"
+            },
+            {
+                "name": "Vis",
+                "rarity": "common"
+            },
+            {
+                "name": "Double Vis",
+                "rarity": "common"
+            },
+            {
+                "name": "Gurgle",
+                "rarity": "common"
+            },
+            {
+                "name": "Walking Boil",
+                "rarity": "common"
+            },
+            {
+                "name": "Walking Gut",
+                "rarity": "common"
+            },
+            {
+                "name": "Walking Sack",
+                "rarity": "common"
+            }
+        ],
+        "The Womb": [
+            {
+                "name": "I. Blob",
+                "rarity": "very rare"
+            },
+            {
+                "name": "Brain",
+                "rarity": "common"
+            },
+            {
+                "name": "Dople",
+                "rarity": "common"
+            },
+            {
+                "name": "Eye",
+                "rarity": "common"
+            },
+            {
+                "name": "Fly",
+                "rarity": "common"
+            },
+            {
+                "name": "Fred",
+                "rarity": "common"
+            },
+            {
+                "name": "Lech free",
+                "rarity": "common"
+            },
+            {
+                "name": "Holy Leech",
+                "rarity": "uncommon"
+            },
+            {
+                "name": "Host",
+                "rarity": "common"
+            },
+            {
+                "name": "Lump",
+                "rarity": "common"
+            },
+            {
+                "name": "Embryo",
+                "rarity": "uncommon"
+            },
+            {
+                "name": "MemBrain",
+                "rarity": "common"
+            },
+            {
+                "name": "Para-Bite",
+                "rarity": "common"
+            },
+            {
+                "name": "Poky",
+                "rarity": "common"
+            },
+            {
+                "name": "Globin",
+                "rarity": "uncommon"
+            },
+            {
+                "name": "Guts",
+                "rarity": "common"
+            },
+            {
+                "name": "Mr. Maw",
+                "rarity": "uncommon"
+            },
+            {
+                "name": "Spider",
+                "rarity": "uncommon"
+            },
+            {
+                "name": "Vis",
+                "rarity": "common"
+            }
+        ],
+        "Utero": [
+            {
+                "name": "Angelic Baby",
+                "rarity": "uncommon"
+            },
+            {
+                "name": "Mama Guts",
+                "rarity": "common"
+            },
+            {
+                "name": "Buttlicker",
+                "rarity": "common"
+            },
+            {
+                "name": "Dople",
+                "rarity": "common"
+            },
+            {
+                "name": "Fred",
+                "rarity": "common"
+            },
+            {
+                "name": "Guts",
+                "rarity": "common"
+            },
+            {
+                "name": "Gurdy Jr.",
+                "rarity": "common"
+            },
+            {
+                "name": "Mask + Heart",
+                "rarity": "common"
+            },
+            {
+                "name": "Heart",
+                "rarity": "common"
+            },
+            {
+                "name": "Para-Bite",
+                "rarity": "common"
+            },
+            {
+                "name": "Spider",
+                "rarity": "uncommon"
+            }
+        ]
+    },
+    "runas": [
+        {
+            "name": "Hagalaz",
+            "quote": "Destruction (Destrucci\u00f3n)",
+            "description": "Destruye todas las rocas y cacas de la habitaci\u00f3n.",
+            "how_to_unlock": "Completa el desaf\u00edo #1 (Pitch Black).",
+            "id": "k32"
+        },
+        {
+            "name": "Jera",
+            "quote": "Abundance (Abundancia)",
+            "description": "Duplica todos los recolectables y cofres de la habitaci\u00f3n. Eso incluye cartas, p\u00edldoras, recolectables que est\u00e9n en venta. Pero no puede clonar objetos coleccionables. A\u00fan as\u00ed puede clonar cofres dorados con coleccionables en su interior. Y no puede clonar otras runas Jera.",
+            "how_to_unlock": "Completa el desaf\u00edo #2 (High Brow).",
+            "id": "k33"
+        },
+        {
+            "name": "Ehwaz",
+            "quote": "Passage (Pasaje)",
+            "description": "Genera una trampilla al siguiente piso al lado del jugador. Hay una poca posibilidad de generar una trampilla que vaya a una mazmorra.",
+            "how_to_unlock": "Completa el desaf\u00edo #3 (Head Trauma).",
+            "id": "k34"
+        },
+        {
+            "name": "Dagaz",
+            "quote": "Purity (Pureza)",
+            "description": "A\u00f1ade un coraz\u00f3n de alma a la vida del jugador y elimina la maldici\u00f3n del piso actual.",
+            "how_to_unlock": "Completa el desaf\u00edo #4 (Darkness Falls).",
+            "id": "k35"
+        },
+        {
+            "name": "Ansuz",
+            "quote": "Vision (Visi\u00f3n)",
+            "description": "Otorga visi\u00f3n completa del mini-mapa en el piso actual, incluyendo habitaciones secretas.",
+            "how_to_unlock": "Completa el desaf\u00edo #5 (The Tank).",
+            "id": "k36"
+        },
+        {
+            "name": "Perthro",
+            "quote": "Change (Cambio)",
+            "description": "Cambia todos los objetos coleccionables de la habitaci\u00f3n. Mismo efecto que El D6.",
+            "how_to_unlock": "Completa el desaf\u00edo #6 (Solar System).",
+            "id": "k37"
+        },
+        {
+            "name": "Berkano",
+            "quote": "Companionship (Compa\u00f1\u00eda)",
+            "description": "Genera tres langostas durante la sala actual.",
+            "how_to_unlock": "Original: Completa el desaf\u00edo #20 (Purist). Parcheado: Completa el desaf\u00edo #7 (Suicide King).",
+            "id": "k38"
+        },
+        {
+            "name": "Algiz",
+            "quote": "Resistance (Resistencia)",
+            "description": "Otorga un escudo al jugador. Mismo efecto que Book of Shadows, pero Algiz dura hasta 30 segundos.",
+            "how_to_unlock": "Completa el desaf\u00edo #8 (Cat Got Your Tongue).",
+            "id": "k39"
+        }
+    ],
+    "jefes": [
+        {
+            "name": "The Duke of Flies",
+            "chapter": "Cap\u00edtulo 1",
+            "location": "El S\u00f3tano",
+            "image": "",
+            "description": "Un gran jefe basado en moscas."
+        },
+        {
+            "name": "Gemini",
+            "chapter": "Cap\u00edtulo 1",
+            "location": "El S\u00f3tano",
+            "image": "",
+            "description": "Una versi\u00f3n dividida del jefe original."
+        },
+        {
+            "name": "Monstro",
+            "chapter": "Cap\u00edtulo 1",
+            "location": "El S\u00f3tano",
+            "image": "",
+            "description": "Un jefe grande que salta y dispara sangre."
+        },
+        {
+            "name": "Larry Jr.",
+            "chapter": "Cap\u00edtulo 1",
+            "location": "El S\u00f3tano",
+            "image": "",
+            "description": "Un enemigo segmentado en forma de serpiente."
+        },
+        {
+            "name": "Famine (Caballero del Apocalipsis)",
+            "chapter": "Cap\u00edtulo 1",
+            "location": "El S\u00f3tano",
+            "image": "",
+            "description": "El primero de los Cuatro Jinetes del Apocalipsis."
+        },
+        {
+            "name": "Steven (Alternativa de Gemini)",
+            "chapter": "Cap\u00edtulo 1",
+            "location": "El S\u00f3tano",
+            "image": "",
+            "description": "Una versi\u00f3n alternativa de Gemini."
+        },
+        {
+            "name": "Widow",
+            "chapter": "Cap\u00edtulo 2",
+            "location": "La Bodega",
+            "image": "",
+            "description": "Un gigante jefe ara\u00f1a."
+        },
+        {
+            "name": "Pin",
+            "chapter": "Cap\u00edtulo 2",
+            "location": "La Bodega",
+            "image": "",
+            "description": "Un jefe que se arrastra bajo el suelo y reaparece."
+        },
+        {
+            "name": "Blighted Ovum",
+            "chapter": "Cap\u00edtulo 2",
+            "location": "La Bodega",
+            "image": "",
+            "description": "Un jefe parecido a un \u00f3vulo que escupe."
+        },
+        {
+            "name": "Fistula",
+            "chapter": "Cap\u00edtulo 3",
+            "location": "Las Cavernas",
+            "image": "",
+            "description": "Una gran masa segmentada de carne que dispara enemigos m\u00e1s peque\u00f1os."
+        },
+        {
+            "name": "Gurdy",
+            "chapter": "Cap\u00edtulo 3",
+            "location": "Las Cavernas",
+            "image": "",
+            "description": "Un jefe estacionario que lanza enemigos y bombas dirigidas."
+        },
+        {
+            "name": "Peep",
+            "chapter": "Cap\u00edtulo 3",
+            "location": "Las Cavernas",
+            "image": "",
+            "description": "Un jefe con grandes ojos rodantes que disparan l\u00e1grimas."
+        },
+        {
+            "name": "Chub",
+            "chapter": "Cap\u00edtulo 3",
+            "location": "Las Cavernas",
+            "image": "",
+            "description": "Un jefe grande y lento que te embiste."
+        },
+        {
+            "name": "Pestilence (Caballero del Apocalipsis)",
+            "chapter": "Cap\u00edtulo 3",
+            "location": "Las Cavernas",
+            "image": "",
+            "description": "El segundo de los Cuatro Jinetes del Apocalipsis."
+        },
+        {
+            "name": "C.H.A.D. (Alternativa de Chub)",
+            "chapter": "Cap\u00edtulo 3",
+            "location": "Las Cavernas",
+            "image": "",
+            "description": "Una versi\u00f3n alternativa de Chub."
+        },
+        {
+            "name": "The Carrion Queen",
+            "chapter": "Cap\u00edtulo 4",
+            "location": "Las Catacumbas",
+            "image": "",
+            "description": "Un jefe gigante que vomita."
+        },
+        {
+            "name": "The Husk",
+            "chapter": "Cap\u00edtulo 4",
+            "location": "Las Catacumbas",
+            "image": "",
+            "description": "Un jefe fuerte que crea bombas."
+        },
+        {
+            "name": "The Hollow",
+            "chapter": "Cap\u00edtulo 4",
+            "location": "Las Catacumbas",
+            "image": "",
+            "description": "Un jefe gigante que salta como un gusano."
+        },
+        {
+            "name": "The Wretched (Alternativa de The Widow)",
+            "chapter": "Cap\u00edtulo 4",
+            "location": "Las Catacumbas",
+            "image": "",
+            "description": "Una versi\u00f3n alternativa de The Widow."
+        },
+        {
+            "name": "Gish",
+            "chapter": "Cap\u00edtulo 4",
+            "location": "Las Catacumbas",
+            "image": "",
+            "description": "Una bola gigante de goo que genera enemigos."
+        },
+        {
+            "name": "Loki",
+            "chapter": "Cap\u00edtulo 4",
+            "location": "Las Profundidades",
+            "image": "",
+            "description": "Un jefe masivo que dispara bombas y l\u00e1grimas dirigidas."
+        },
+        {
+            "name": "Monstro II",
+            "chapter": "Cap\u00edtulo 4",
+            "location": "Las Profundidades",
+            "image": "",
+            "description": "Una versi\u00f3n mutada de Monstro."
+        },
+        {
+            "name": "War (Caballero del Apocalipsis)",
+            "chapter": "Cap\u00edtulo 4",
+            "location": "Las Profundidades",
+            "image": "",
+            "description": "El tercero de los Cuatro Jinetes del Apocalipsis."
+        },
+        {
+            "name": "Gish (Alternativa de Monstro II)",
+            "chapter": "Cap\u00edtulo 4",
+            "location": "Las Profundidades",
+            "image": "",
+            "description": "Una versi\u00f3n alternativa de Gish."
+        },
+        {
+            "name": "Mom (Jefe final de Las Profundidades)",
+            "chapter": "Cap\u00edtulo 4",
+            "location": "Las Profundidades",
+            "image": "",
+            "description": "El jefe final de Las Profundidades."
+        },
+        {
+            "name": "Mask of Infamy",
+            "chapter": "Cap\u00edtulo 5",
+            "location": "La Necropolis",
+            "image": "",
+            "description": "Una m\u00e1scara gigante que dispara l\u00e1grimas t\u00f3xicas."
+        },
+        {
+            "name": "Daddy Long Legs",
+            "chapter": "Cap\u00edtulo 5",
+            "location": "La Necropolis",
+            "image": "",
+            "description": "Un jefe enorme y ar\u00e1cnido que pisa al jugador."
+        },
+        {
+            "name": "The Carrion Queen",
+            "chapter": "Cap\u00edtulo 5",
+            "location": "La Necropolis",
+            "image": "",
+            "description": "Un jefe gigante volador."
+        },
+        {
+            "name": "The Wretched",
+            "chapter": "Cap\u00edtulo 5",
+            "location": "La Necropolis",
+            "image": "",
+            "description": "Una versi\u00f3n alternativa de The Widow."
+        },
+        {
+            "name": "The Bloat",
+            "chapter": "Cap\u00edtulo 5",
+            "location": "La Necropolis",
+            "image": "",
+            "description": "Un monstruo gigante y hinchado que dispara l\u00e1grimas t\u00f3xicas."
+        },
+        {
+            "name": "Satan (Jefe final de Sheol)",
+            "chapter": "Cap\u00edtulo 6",
+            "location": "Sheol",
+            "image": "",
+            "description": "El jefe final de Sheol."
+        },
+        {
+            "name": "Isaac (Jefe final de la Catedral)",
+            "chapter": "Cap\u00edtulo 7",
+            "location": "Catedral",
+            "image": "",
+            "description": "El jefe final de la Catedral."
+        },
+        {
+            "name": "??? (Jefe final de The Chest)",
+            "chapter": "Cap\u00edtulo 8",
+            "location": "The Chest",
+            "image": "",
+            "description": "El jefe final de The Chest."
+        },
+        {
+            "name": "Krampus",
+            "chapter": "Sala del Diablo",
+            "location": "Sala del Diablo",
+            "image": "",
+            "description": "Un mini-jefe que aparece en la Sala del Diablo."
+        },
+        {
+            "name": "The Fallen",
+            "chapter": "En cualquier lugar",
+            "location": "En cualquier lugar",
+            "image": "",
+            "description": "Un mini-jefe que puede aparecer aleatoriamente."
+        },
+        {
+            "name": "Headless Horseman",
+            "chapter": "Sala del Diablo",
+            "location": "Sala del Diablo",
+            "image": "",
+            "description": "Un mini-jefe que reemplaza a cualquiera de los cuatro Jinetes."
+        }
+    ],
+    "personajes": [
+        {
+            "name": "Isaac",
+            "health": "Coraz\u00f3n Rojo",
+            "damage": "3.5 (x 1.00)",
+            "tears": "+0",
+            "speed": "1",
+            "range": "6.5",
+            "luck": "1.0",
+            "resources": "1 bomba",
+            "special": "El D6"
+        },
+        {
+            "name": "Magdalene",
+            "health": "Coraz\u00f3n Rojo",
+            "damage": "3.5 (x 1.00)",
+            "tears": "+0",
+            "speed": "1",
+            "range": "6.5",
+            "luck": "0.85",
+            "resources": "AB+RP 1 Speed Up, RP 1 Full Health, Delicioso Coraz\u00f3n",
+            "special": ""
+        },
+        {
+            "name": "Cain",
+            "health": "Coraz\u00f3n Rojo",
+            "damage": "3.5 (x 1.20)",
+            "tears": "+0",
+            "speed": "1.3",
+            "range": "4.5",
+            "luck": "0",
+            "resources": "1 llave",
+            "special": "AB Clip de Papel, Pie de la suerte"
+        },
+        {
+            "name": "Judas",
+            "health": "Coraz\u00f3n Rojo",
+            "damage": "3.5 (x 1.35)",
+            "tears": "+0",
+            "speed": "1",
+            "range": "6.5",
+            "luck": "1.0",
+            "resources": "3 monedas",
+            "special": "Libro de Belial"
+        },
+        {
+            "name": "???",
+            "health": "Coraz\u00f3n de alma",
+            "damage": "3.5 (x 1.05)",
+            "tears": "+0",
+            "speed": "1.1",
+            "range": "6.5",
+            "luck": "0",
+            "resources": "La Pop\u00f3",
+            "special": ""
+        },
+        {
+            "name": "Eve",
+            "health": "Coraz\u00f3n Rojo",
+            "damage": "3.5 (x 0.75)",
+            "tears": "+0",
+            "speed": "1.23",
+            "range": "6.5",
+            "luck": "0",
+            "resources": "Ramera de Babilonia, Ave Muerta, AB Hoja de Afeitar",
+            "special": ""
+        },
+        {
+            "name": "Samson",
+            "health": "Coraz\u00f3n Rojo",
+            "damage": "3.5 (x 1.00)",
+            "tears": "-0.05",
+            "speed": "1.31",
+            "range": "5.0",
+            "luck": "1.1",
+            "resources": "AB+ Coraz\u00f3n de ni\u00f1o, Lujuria de Sangre",
+            "special": ""
+        },
+        {
+            "name": "Azazel",
+            "health": "Coraz\u00f3n negro",
+            "damage": "3.5 (x 1.50)",
+            "tears": "+0.5 (x 0.3)",
+            "speed": "1.25",
+            "range": "4.5",
+            "luck": "0",
+            "resources": "0 - The Fool, Azufre de corto alcance, Vuelo",
+            "special": ""
+        },
+        {
+            "name": "Lazarus",
+            "health": "Coraz\u00f3n Rojo",
+            "damage": "3.5 (x 1.00)",
+            "tears": "+0",
+            "speed": "4.5",
+            "range": "1.0",
+            "luck": "-1",
+            "resources": "1 p\u00edldora, AB+ An\u00e9mico",
+            "special": ""
+        },
+        {
+            "name": "Eden",
+            "health": "Coraz\u00f3n Rojo",
+            "damage": "3.5 \u00b1 1.0 (x 1.00)",
+            "tears": "\u00b10.75",
+            "speed": "1 \u00b1 0.25",
+            "range": "6.5 \u00b1 ?",
+            "luck": "1.0 \u00b1 0.15",
+            "resources": "0-2 bombas, 0-1 llaves, 0-5 monedas, 0-1 baratija, p\u00edldora o carta, Objeto activable aleatorio, Objeto pasivo aleatorio",
+            "special": ""
+        },
+        {
+            "name": "The Lost",
+            "health": "Sin vida",
+            "damage": "3.5 (x 1.00)",
+            "tears": "+0",
+            "speed": "6.5",
+            "range": "1.0",
+            "luck": "0",
+            "resources": "1 moneda, Vuelo, AB L\u00e1grimas espectrales, AB RP D4, D6 eterno, AB Manto sagrado",
+            "special": ""
+        },
+        {
+            "name": "Lilith",
+            "health": "Coraz\u00f3n Rojo, Coraz\u00f3n negro",
+            "damage": "3.5 (x 1.00)",
+            "tears": "+0",
+            "speed": "1",
+            "range": "6.5",
+            "luck": "1.0",
+            "resources": "Ojos vendados, \u00cdncubo, Impura Concepci\u00f3n, Caj\u00f3n de Amigos",
+            "special": ""
+        },
+        {
+            "name": "Keeper",
+            "health": "Coraz\u00f3n de moneda",
+            "damage": "3.5 (x 1.20)",
+            "tears": "-2",
+            "speed": "1.5",
+            "range": "6.5",
+            "luck": "0.85",
+            "resources": "1 bomba, 1 moneda, Llave de Tienda, Disparo triple, Moneda de Madera",
+            "special": ""
+        },
+        {
+            "name": "Apollyon",
+            "health": "Coraz\u00f3n Rojo",
+            "damage": "3.5 (x 1.00)",
+            "tears": "+0",
+            "speed": "1",
+            "range": "6.5",
+            "luck": "1.0",
+            "resources": "Vac\u00edo",
+            "special": ""
+        },
+        {
+            "name": "The Forgotten",
+            "health": "Coraz\u00f3n de hueso, Coraz\u00f3n de alma",
+            "damage": "3.5 (x 1.50), 3.5 (x 1.00)",
+            "tears": "+0 (x 0.5), +0",
+            "speed": "1",
+            "range": "6.5",
+            "luck": "1.3",
+            "resources": "Garrote de hueso, Vuelo, L\u00e1grimas espectrales",
+            "special": ""
+        },
+        {
+            "name": "Bethany",
+            "health": "Coraz\u00f3n Rojo",
+            "damage": "3.5 (x 1.00)",
+            "tears": "+0",
+            "speed": "1",
+            "range": "6.5",
+            "luck": "1.0",
+            "resources": "4 cargas de alma, Libro de virtudes",
+            "special": ""
+        },
+        {
+            "name": "Jacob & Esau",
+            "health": "Coraz\u00f3n Rojo, Coraz\u00f3n Rojo, Coraz\u00f3n Rojo, Coraz\u00f3n Rojo, Coraz\u00f3n de alma",
+            "damage": "2.75 (x 1.00), 3.75 (x 1.00)",
+            "tears": "3, 2.5",
+            "speed": "1.15, 0.85",
+            "range": "5, 8",
+            "luck": "1, 1",
+            "resources": "\u2014",
+            "special": ""
+        }
+    ],
+    "pildoras": [
+        {
+            "name": "Bad Gas",
+            "description": "El jugador se tira un pedo, envenenando a todos los enemigos cercanos.",
+            "how_to_unlock": "",
+            "id": "k1"
+        },
+        {
+            "name": "Bad Trip",
+            "description": "Inflige al jugador 2 puntos de da\u00f1o (un coraz\u00f3n entero). Si el jugador no tiene suficiente vida para sobrevivir, en vez actuar\u00e1 como un Full Health.",
+            "how_to_unlock": "",
+            "id": "k2"
+        },
+        {
+            "name": "Balls of Steel",
+            "description": "A\u00f1ade autom\u00e1ticamente dos corazones de alma.",
+            "how_to_unlock": "",
+            "id": "k3"
+        },
+        {
+            "name": "Bombs are Keys",
+            "description": "Cambia la cantidad de bombas por la de llaves y viceversa.",
+            "how_to_unlock": "",
+            "id": "k4"
+        },
+        {
+            "name": "Explosive Diarrhea",
+            "description": "El jugador empezar\u00e1 a dejar 4 bombas sin querer mientras camina.",
+            "how_to_unlock": "",
+            "id": "k5"
+        },
+        {
+            "name": "Full Health",
+            "description": "Rellena todos los contenedores de coraz\u00f3n vac\u00edos y corazones huesos con corazones rojos.",
+            "how_to_unlock": "",
+            "id": "k6"
+        },
+        {
+            "name": "Health Down",
+            "description": "Elimina un coraz\u00f3n de la salud del jugador. Da prioridad a eliminar un contenedor de coraz\u00f3n pero tambi\u00e9n puede eliminar corazones de alma. Si el jugador no pudiera sobrevivir a eso, actuar\u00e1 en vez como un Health Up.",
+            "how_to_unlock": "",
+            "id": "k7"
+        },
+        {
+            "name": "Health Up",
+            "description": "A\u00f1ade un coraz\u00f3n autom\u00e1ticamente. El tipo de coraz\u00f3n depende del personaje.",
+            "how_to_unlock": "",
+            "id": "k8"
+        },
+        {
+            "name": "I Found Pills",
+            "description": "Cambia la apariencia del jugador.",
+            "how_to_unlock": "",
+            "id": "k9"
+        },
+        {
+            "name": "Puberty",
+            "description": "La apariencia del jugador cambia levemente a\u00f1adi\u00e9ndole m\u00e1s cabello. En Afterbirth+, si se consume tres Puberty, se obtendr\u00e1 la transformaci\u00f3n Adulthood.",
+            "how_to_unlock": "",
+            "id": "k10"
+        },
+        {
+            "name": "Pretty Fly",
+            "description": "A\u00f1ade una mosca que funciona igual a las moscas de Halo of Flies.",
+            "how_to_unlock": "",
+            "id": "k11"
+        },
+        {
+            "name": "Range Down",
+            "description": "Reduce el rango del jugador.",
+            "how_to_unlock": "",
+            "id": "k12"
+        },
+        {
+            "name": "Range Up",
+            "description": "Aumenta el rango del jugador.",
+            "how_to_unlock": "",
+            "id": "k13"
+        },
+        {
+            "name": "Speed Down",
+            "description": "Reduce la velocidad de movimiento del jugador.",
+            "how_to_unlock": "",
+            "id": "k14"
+        },
+        {
+            "name": "Speed Up",
+            "description": "Aumenta la velocidad de movimiento del jugador.",
+            "how_to_unlock": "",
+            "id": "k15"
+        },
+        {
+            "name": "Tears Down",
+            "description": "Aumenta la cadencia de l\u00e1grimas del jugador. Esto hace que el jugador dispare cada l\u00e1grima m\u00e1s lento.",
+            "how_to_unlock": "",
+            "id": "k16"
+        },
+        {
+            "name": "Tears Up",
+            "description": "Reduce la cadencia de l\u00e1grimas del jugador. Esto hace que el jugador dispare cada l\u00e1grima m\u00e1s r\u00e1pido. No puede sobrepasar el l\u00edmite de l\u00e1grimas. El jugador se vuelve un poco m\u00e1s azul.",
+            "how_to_unlock": "",
+            "id": "k17"
+        },
+        {
+            "name": "Luck Down",
+            "description": "Reduce la suerte en 1.",
+            "how_to_unlock": "",
+            "id": "k18"
+        },
+        {
+            "name": "Luck Up",
+            "description": "Aumenta la suerte en 1. El jugador se vuelve un poco m\u00e1s verde.",
+            "how_to_unlock": "",
+            "id": "k19"
+        },
+        {
+            "name": "Telepills",
+            "description": "Teletransporta al jugador a una habitaci\u00f3n aleatoria. Esta p\u00edldora no puede aparecer en Greed Mode.",
+            "how_to_unlock": "",
+            "id": "k20"
+        },
+        {
+            "name": "48 Hour Energy!",
+            "description": "Hace aparecer 2 bater\u00edas peque\u00f1as y recarga la energ\u00eda del coleccionable activable.",
+            "how_to_unlock": "",
+            "id": "k21"
+        },
+        {
+            "name": "Hematemesis",
+            "description": "Vac\u00eda todos los contenedores de coraz\u00f3n y corazones hueso llenos (excepto uno),y despu\u00e9s genera entre 1 a 4 corazones rojos.",
+            "how_to_unlock": "",
+            "id": "k22"
+        },
+        {
+            "name": "Paralysis",
+            "description": "Paraliza al jugador por un corto periodo de tiempo sin ning\u00fan beneficio.",
+            "how_to_unlock": "",
+            "id": "k23"
+        },
+        {
+            "name": "I can see forever!",
+            "description": "Abre autom\u00e1ticamente todas las habitaciones secretas y s\u00faper secretas. Mismo efecto que X-Ray Vision pero solamente dura un piso.",
+            "how_to_unlock": "",
+            "id": "k24"
+        },
+        {
+            "name": "Pheromones",
+            "description": "El jugador se tira un pedo rosado que es capaz de encantar a los enemigos, haci\u00e9ndolos atacar a otros enemigos por un corto tiempo.",
+            "how_to_unlock": "",
+            "id": "k25"
+        },
+        {
+            "name": "Amnesia",
+            "description": "Otorga el efecto de Curse of the Lost. Este efecto no puede ser removido con Black Candle.",
+            "how_to_unlock": "",
+            "id": "k26"
+        },
+        {
+            "name": "Lemon Party",
+            "description": "El jugador generar\u00e1 un rastro amarillo gigante alrededor de \u00e9l. Este rastro da\u00f1ar\u00e1 a los enemigos que se desplacen por tierra. El rastro desaparece con el tiempo.",
+            "how_to_unlock": "",
+            "id": "k27"
+        },
+        {
+            "name": "R U A Wizard?",
+            "description": "El jugador solamente podr\u00e1 disparar en dos diagonales y no en enfrente de \u00e9l. Este efecto es temporal.",
+            "how_to_unlock": "",
+            "id": "k28"
+        }
+    ],
+    "transformaciones": [
+        {
+            "name": "Guppy",
+            "description": "Al conseguir 3 objetos relacionados con Guppy, convertir\u00e1 al jugador en el propio Guppy. Por cada l\u00e1grima que haya recibido alg\u00fan monstruo, genera una mosca azul con un 50% de probabilidad en Repentance. Adicionalmente dar\u00e1 vuelo.",
+            "unlock_condition": "Los objetos necesarios: Gato muerto, Cabeza de Guppy, Pata de Guppy, Cola de Guppy, Bola de pelo de Guppy, Collar de Guppy, RP Ojo de Guppy, RP Dibujo de ni\u00f1o",
+            "id": "k1"
+        },
+        {
+            "name": "Beelzebub",
+            "description": "Al conseguir 3 objetos relacionados con moscas, esta transformaci\u00f3n dar\u00e1 vuelo y todas las Attack Flies se vuelven moscas aliadas.",
+            "unlock_condition": "Los objetos necesarios: ???'s Only Friend, Best Bud, Big Fan, Distant Admiration, Forever Alone, Halo of Flies, Hive Mind, Infestation, The Mulligan, Skatole, Smart Fly, BBF, Friend Zone, Lost Fly, Obsessed Fan, Papa Fly, Jar of Flies, Angry Fly, Plum Flute, Fruity Plum, Psy Fly, Bot Fly, The Swarm",
+            "id": "k2"
+        },
+        {
+            "name": "Stompy",
+            "description": "El jugador ser\u00e1 capaz de romper rocas con solo pisarlas al igual que con Leo, y da una probabilidad de crear un terremoto al recibir da\u00f1o.",
+            "unlock_condition": "M\u00e9todos para crecer: Magic Mushroom, Leo, One makes you larger, Huge Growth, Yes Mother?",
+            "id": "k3"
+        },
+        {
+            "name": "Yes Mother?",
+            "description": "La transformaci\u00f3n est\u00e1 basada en Mom. La apariencia es la apariencia que Mom's Knife da en el juego original. Esta transformaci\u00f3n da un cuchillo en la espalda del jugador, que puede ser usado de forma defensiva.",
+            "unlock_condition": "Los objetos necesarios: Mom's Underwear, Mom's Heels, Mom's Lipstick, Mom's Bra, Mom's Pad, Mom's Eye, Mom's Bottle of Pills, Mom's Contacts, Mom's Knife, Mom's Purse, Mom's Coin Purse, Mom's Key, Mom's Eyeshadow, Mom's Wig, Mom's Perfume, Mom's Pearls, Mom's Razor, Mom's Bracelet, Mom's Shovel",
+            "id": "k4"
+        },
+        {
+            "name": "Leviathan",
+            "description": "Al tener 3 objetos espec\u00edficos de la habitaci\u00f3n del diablo, dar\u00e1 el poder de vuelo y 3 corazones negro como recompensa.",
+            "unlock_condition": "Los objetos necesarios: Pentagram, The Mark, The Pact, The Nail, Brimstone, Spirit of the Night, Abaddon, Maw of the Void, Lord of the Pit, Eye of the Occult, Sulfur",
+            "id": "k5"
+        },
+        {
+            "name": "Seraphim",
+            "description": "Se consigue teniendo 3 objetos que suelen aparecer en la habitaci\u00f3n del \u00e1ngel. Esta transformaci\u00f3n dar\u00e1 el poder de vuelo y 3 corazones de alma.",
+            "unlock_condition": "Los objetos necesarios: The Bible, The Halo, Rosary, Guardian Angel, Mitre, Holy Grail, Dead Dove, Holy Mantle, Sworn Protector, Seraphim, Celtic Cross, Holy Light, Godhead, Sacred Heart, Immaculate Heart, Divine Intervention, Revelation, Salvation",
+            "id": "k6"
+        },
+        {
+            "name": "Bob",
+            "description": "Se consigue recolectando 3 objetos relacionados con Sloth. Esta transformaci\u00f3n har\u00e1 que sea posible dejar un rastro de \u00e1cido que da\u00f1ar\u00e1 a los enemigos que pasen por arriba de este.",
+            "unlock_condition": "Los objetos necesarios: Bob's Rotten Head, Bob's Curse, Bob's Brain, Ipecac, Bob's Bladder, Fun Guy",
+            "id": "k7"
+        },
+        {
+            "name": "Fun Guy",
+            "description": "Se consigue teniendo 3 objetos que sean champi\u00f1ones. Esta transformaci\u00f3n solo dar\u00e1 un contenedor de coraz\u00f3n.",
+            "unlock_condition": "Los objetos necesarios: 1up!, Magic Mushroom, Blue Cap, God's Flesh, Mini Mush, Cualquiera de los dos Odd Mushroom, Mega Mush, Wavy Cap",
+            "id": "k8"
+        },
+        {
+            "name": "Conjoined",
+            "description": "Se consigue teniendo 3 familiares espec\u00edficos. Esta transformaci\u00f3n dar\u00e1 l\u00e1grimas adicionales, bajando el n\u00famero de l\u00e1grimas (o el tiempo de carga).",
+            "unlock_condition": "Los familiares necesarios: Brother Bobby, Harlequin Baby, Headless Baby, Little Steven, Beb\u00e9 Mongo, Rotten Baby, Sister Maggy, Abel, Demon Baby, Dry Baby, Ghost Baby, Guardian Angel, Sworn Protector, Lil Brimstone, Rainbow Baby, Robo-Baby, Robo-Baby 2.0, Farting Baby, Incubus, Succubus, Multidimensional Baby, Seraphim, Acid Baby, Buddy in a Box, King Baby, Boiled Baby, Cube Baby, Freezer Baby, Lil Abaddon, Quints, Twisted Pair",
+            "id": "k9"
+        },
+        {
+            "name": "Spun",
+            "description": "Se consigue al tener 3 objetos que son jeringas. Esta transformaci\u00f3n aumenta 2 de da\u00f1o, aumenta la velocidad y hace aparecer una p\u00edldora aleatoria.",
+            "unlock_condition": "Los objetos necesarios: The Virus, Roid Rage, Growth Hormones, Speed Ball, Experimental Treatment, Synthoil, Adrenaline, Euthanasia",
+            "id": "k10"
+        },
+        {
+            "name": "Oh Crap",
+            "description": "Se consigue teniendo 3 objetos relacionados con la popo. Esta transformaci\u00f3n har\u00e1 que cada vez que se destruya una pila de popo, cure medio coraz\u00f3n al jugador.",
+            "unlock_condition": "Los objetos necesarios: Montezuma's Revenge, Flush!, The Poop, E. Coli, Skatole, Brown Nugget, Butt Bombs, Number Two, Hallowed Ground, Dirty Mind",
+            "id": "k11"
+        },
+        {
+            "name": "Super Bum",
+            "description": "Combina tres familiares y los convierte en uno solo. Si se consigue Bum Friend, Dark Bum y Key Bum, esta transformaci\u00f3n se activa.",
+            "unlock_condition": "Los familiares necesarios: Bum Friend, Dark Bum, Key Bum",
+            "id": "k12"
+        },
+        {
+            "name": "Book Worm",
+            "description": "Se consigue con 3 objetos que sean libros. Esta transformaci\u00f3n har\u00e1 que se tenga la probabilidad de disparar 2 l\u00e1grimas a la vez, similar al efecto de 20/20.",
+            "unlock_condition": "Los objetos necesarios: The Bible, The Book of Belial, The Necronomicon, Book of Shadows, Anarchist Cookbook, Book of Revelations, The Book of Sin, Monster Manual, Telepathy For Dummies, How to Jump, Book of Secrets, Satanic Bible, Book of the Dead, Book of Virtues, Lemegeton",
+            "id": "k13"
+        },
+        {
+            "name": "Spider Baby",
+            "description": "Se consigue con 3 objetos que tengan 'Spider' en su nombre. La transformaci\u00f3n genera un familiar similar a Spider Mod, que cada vez que sea tocado por un monstruo, aplicar\u00e1 un efecto aleatorio a todos los monstruos de la sala.",
+            "unlock_condition": "Los objetos necesarios: Spider Bite, Mutant Spider, Spider Butt, Spiderbaby, Box of Spiders, Spider Mod, Daddy Longlegs, Hive Mind, Infestation 2, Juicy Sack, Sissy Longlegs, Bursting Sack, Sticky Bombs, Parasitoid, Keeper's Kin, The Intruder",
+            "id": "k14"
+        },
+        {
+            "name": "Adulthood",
+            "description": "Si se usa 3 p\u00edldoras Puberty, el jugador ser\u00e1 transformado. Esta transformaci\u00f3n solamente dar\u00e1 un contenedor de coraz\u00f3n.",
+            "unlock_condition": "Los objetos necesarios: 3 p\u00edldoras Puberty",
+            "id": "k15"
+        }
+    ],
+    "niveles": [
+        [
+            {
+                "id": 1,
+                "nombre": "The Basement",
+                "descripcion": "El primer nivel del juego, dividido en Basement 1 y Basement 2."
+            },
+            {
+                "id": 2,
+                "nombre": "The Caves",
+                "descripcion": "Un nivel subterráneo con rocas destructibles y nuevos enemigos."
+            },
+            {
+                "id": 3,
+                "nombre": "The Depths",
+                "descripcion": "Un nivel oscuro con enemigos más fuertes y menos recursos."
+            },
+            {
+                "id": 4,
+                "nombre": "The Womb",
+                "descripcion": "Un nivel avanzado con enemigos difíciles y efectos de sangrado."
+            }
+        ]
+    ]
+}
+

@@ -1,0 +1,37 @@
+ion-content {
+  --background: #1a1a1a;
+}
+
+.info-card {
+  background: #2d2d2d;
+  color: #f0f0f0;
+  margin-bottom: 10px;
+  border-left: 4px solid var(--ion-color-tertiary);
+}
+
+.info-title {
+  color: var(--ion-color-warning);
+  font-weight: bold;
+}
+
+.unlock-text {
+  color: #aaa;
+  font-style: italic;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+.text-bold {
+  font-weight: bold;
+  color: var(--ion-color-light);
+}
+
+.text-small {
+  font-size: 0.85em;
+  color: #bbb;
+}
+
+ion-accordion {
+  background: #222;
+  margin-bottom: 2px;
+}

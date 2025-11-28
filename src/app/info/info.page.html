@@ -1,0 +1,122 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="tertiary">
+    <ion-title>
+      <ion-icon name="library-outline" style="margin-right: 8px;"></ion-icon>
+      Wiki de Isaac
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding-bottom">
+  
+  <!-- Barra de búsqueda -->
+  <ion-toolbar>
+    <ion-searchbar placeholder="Buscar logros, items..." [(ngModel)]="searchTerm" animated="true"></ion-searchbar>
+  </ion-toolbar>
+
+  <div class="ion-padding">
+
+    <!-- SECCIÓN: LOGROS -->
+    <ion-accordion-group expand="inset" class="ion-margin-bottom">
+      <ion-accordion value="logros">
+        <ion-item slot="header" color="dark">
+          <ion-icon name="trophy" slot="start" color="warning"></ion-icon>
+          <ion-label>Logros ({{ logros.length }})</ion-label>
+        </ion-item>
+        <div class="ion-padding" slot="content">
+          <ion-card *ngFor="let item of logros" class="info-card">
+            <ion-card-header>
+              <ion-card-title class="info-title">{{ item.name }}</ion-card-title>
+            </ion-card-header>
+            <ion-card-content>
+              <p><strong>Descripción:</strong> {{ item.description }}</p>
+              <p class="unlock-text"><ion-icon name="key-outline"></ion-icon> {{ item.how_to_unlock }}</p>
+            </ion-card-content>
+          </ion-card>
+        </div>
+      </ion-accordion>
+
+      <!-- SECCIÓN: PERSONAJES -->
+      <ion-accordion value="personajes">
+        <ion-item slot="header" color="dark">
+          <ion-icon name="people" slot="start" color="primary"></ion-icon>
+          <ion-label>Personajes ({{ personajes.length }})</ion-label>
+        </ion-item>
+        <div class="ion-padding" slot="content">
+          <ion-card *ngFor="let p of personajes" class="info-card">
+            <ion-card-header>
+              <ion-card-title class="info-title">{{ p.name }}</ion-card-title>
+            </ion-card-header>
+            <ion-card-content>
+              <ion-grid>
+                <ion-row>
+                  <ion-col size="6">❤️ Salud: {{ p.health }}</ion-col>
+                  <ion-col size="6">⚔️ Daño: {{ p.damage }}</ion-col>
+                  <ion-col size="6">⚡ Velocidad: {{ p.speed }}</ion-col>
+                  <ion-col size="6">🍀 Suerte: {{ p.luck }}</ion-col>
+                </ion-row>
+              </ion-grid>
+              <p class="mt-2"><strong>Inicial:</strong> {{ p.resources }}</p>
+            </ion-card-content>
+          </ion-card>
+        </div>
+      </ion-accordion>
+
+      <!-- SECCIÓN: JEFES -->
+      <ion-accordion value="jefes">
+        <ion-item slot="header" color="dark">
+          <ion-icon name="skull" slot="start" color="danger"></ion-icon>
+          <ion-label>Jefes ({{ jefes.length }})</ion-label>
+        </ion-item>
+        <div class="ion-padding" slot="content">
+          <ion-list>
+            <ion-item *ngFor="let boss of jefes" lines="full">
+              <ion-label>
+                <h2 class="text-bold">{{ boss.name }}</h2>
+                <p>📍 {{ boss.location }} | 📖 {{ boss.chapter }}</p>
+                <p class="ion-text-wrap text-small">{{ boss.description }}</p>
+              </ion-label>
+            </ion-item>
+          </ion-list>
+        </div>
+      </ion-accordion>
+
+      <!-- SECCIÓN: CARTAS -->
+      <ion-accordion value="cartas">
+        <ion-item slot="header" color="dark">
+          <ion-icon name="albums" slot="start" color="secondary"></ion-icon>
+          <ion-label>Cartas ({{ cartas.length }})</ion-label>
+        </ion-item>
+        <div class="ion-padding" slot="content">
+          <ion-card *ngFor="let c of cartas" class="info-card-mini">
+            <ion-card-content>
+              <h3>{{ c.name }}</h3>
+              <p>{{ c.description }}</p>
+              <ion-note color="medium">{{ c.how_to_unlock }}</ion-note>
+            </ion-card-content>
+          </ion-card>
+        </div>
+      </ion-accordion>
+
+      <!-- SECCIÓN: MONSTRUOS -->
+      <ion-accordion value="monstruos">
+        <ion-item slot="header" color="dark">
+          <ion-icon name="bug" slot="start" color="success"></ion-icon>
+          <ion-label>Monstruos por Nivel</ion-label>
+        </ion-item>
+        <div class="ion-padding" slot="content">
+          <div *ngFor="let nivel of monstruosPorNivel">
+            <ion-list-header color="light">
+              <ion-label>{{ nivel.level }}</ion-label>
+            </ion-list-header>
+            <ion-chip *ngFor="let m of nivel.list" [color]="m.rarity === 'common' ? 'medium' : 'danger'">
+              {{ m.name }}
+            </ion-chip>
+          </div>
+        </div>
+      </ion-accordion>
+
+    </ion-accordion-group>
+
+  </div>
+</ion-content>

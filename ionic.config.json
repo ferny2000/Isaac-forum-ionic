@@ -1,0 +1,7 @@
+{
+  "name": "Isaac forum",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

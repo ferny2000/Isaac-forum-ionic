@@ -1,0 +1,54 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="tertiary">
+    <ion-buttons slot="start">
+      <!-- Botón para volver a la pestaña home -->
+      <ion-back-button defaultHref="/tabs/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Iniciar sesión</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="ion-padding">
+    <ion-card class="ion-margin">
+      <ion-card-header class="ion-text-center">
+        <ion-card-title color="warning">
+          <ion-icon name="log-in-outline"></ion-icon> Iniciar sesión
+        </ion-card-title>
+      </ion-card-header>
+
+      <ion-card-content>
+        <!-- (ngSubmit) llama a la función login() -->
+        <form (ngSubmit)="login()">
+          <ion-item class="ion-margin-bottom">
+            <ion-icon name="person-outline" slot="start"></ion-icon>
+            <!-- [(ngModel)] conecta el input con la variable 'credentials.username' -->
+            <ion-input label="Usuario" labelPlacement="floating" type="text" [(ngModel)]="credentials.username" name="username" required></ion-input>
+          </ion-item>
+
+          <ion-item class="ion-margin-bottom">
+            <ion-icon name="lock-closed-outline" slot="start"></ion-icon>
+            <ion-input label="Contraseña" labelPlacement="floating" type="password" [(ngModel)]="credentials.password" name="password" required></ion-input>
+          </ion-item>
+
+          <!-- Botón de Login -->
+          <ion-button expand="block" type="submit" color="warning" class="ion-margin-top" [disabled]="isLoading">
+            <!-- Muestra el spinner si 'isLoading' es true -->
+            <ion-spinner *ngIf="isLoading" name="crescent"></ion-spinner>
+            <!-- Muestra el ícono y texto si 'isLoading' es false -->
+            <span *ngIf="!isLoading">
+              <ion-icon name="log-in-outline" slot="start"></ion-icon> Entrar
+            </span>
+          </ion-button>
+        </form>
+        
+        <div class="ion-text-center ion-margin-top">
+          <ion-note>¿No tienes cuenta? </ion-note>
+          <!-- Usa routerLink para navegar a la pestaña de registro -->
+          <ion-button fill="clear" routerLink="/tabs/register" color="warning">Regístrate aquí</ion-button>
+        </div>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>
+

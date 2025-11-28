@@ -1,0 +1,114 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="tertiary">
+    <ion-title>
+      <ion-icon name="chatbubbles"></ion-icon> Foro de Isaac
+    </ion-title>
+    <!-- Botón para recargar manualmente -->
+    <ion-buttons slot="end">
+      <ion-button (click)="loadPosts()">
+        <ion-icon slot="icon-only" name="refresh"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding-bottom">
+  
+  <ion-refresher slot="fixed" (ionRefresh)="handleRefresh($event)">
+    <ion-refresher-content></ion-refresher-content>
+  </ion-refresher>
+
+  <div class="ion-padding">
+
+    <!-- Botón que ahora abre el Modal -->
+    <ion-button expand="block" color="warning" (click)="setOpen(true)" class="ion-margin-bottom shadow-button">
+      <ion-icon name="add-circle-outline" slot="start"></ion-icon> 
+      Nueva Publicación
+    </ion-button>
+
+    <!-- Spinner de carga -->
+    <div *ngIf="isLoading" class="ion-text-center ion-padding mt-5">
+      <ion-spinner name="crescent" color="warning" style="transform: scale(1.5);"></ion-spinner>
+      <p class="text-muted mt-2">Cargando discusiones...</p>
+    </div>
+
+    <!-- Lista de Publicaciones -->
+    <div *ngIf="!isLoading">
+      
+      <!-- Estado Vacío -->
+      <ion-card *ngIf="posts.length === 0" class="empty-state-card">
+        <ion-card-content class="ion-text-center">
+          <ion-icon name="chatbox-ellipses-outline" style="font-size: 4rem; color: var(--ion-color-medium);"></ion-icon>
+          <h2>No hay publicaciones</h2>
+          <p>¡Sé el primero en compartir algo sobre Isaac!</p>
+        </ion-card-content>
+      </ion-card>
+
+      <!-- Tarjetas de Posts -->
+      <ion-card *ngFor="let post of posts" class="post-card fade-in">
+        <ion-card-header>
+          <div class="post-header-top" style="display: flex; justify-content: space-between; align-items: center;">
+            <ion-badge color="tertiary" mode="ios">{{ post.author }}</ion-badge>
+            <ion-note class="post-date" style="font-size: 0.8rem;">{{ post.created_at | date:'dd/MM/yy HH:mm' }}</ion-note>
+          </div>
+          <ion-card-title class="post-title ion-margin-top">{{ post.title }}</ion-card-title>
+        </ion-card-header>
+
+        <ion-card-content>
+          <p class="post-content" style="font-size: 1rem; ">{{ post.content }}</p>
+          
+          <div *ngIf="post.image_url" class="post-image-container ion-margin-top">
+            <img [src]="post.image_url.startsWith('http') ? post.image_url : 'http://localhost:3001/' + post.image_url" 
+                 alt="Imagen del post"
+                 style="width: 100%; border-radius: 8px; object-fit: cover;"
+                 onerror="this.style.display='none'">
+          </div>
+        </ion-card-content>
+        
+        <ion-item lines="none" class="post-actions">
+          <ion-button fill="clear" size="small" slot="start" color="medium">
+            <ion-icon name="heart-outline" slot="start"></ion-icon> Me gusta
+          </ion-button>
+          <ion-button fill="clear" size="small" slot="end" color="medium">
+            <ion-icon name="chatbubble-outline" slot="start"></ion-icon> Comentar
+          </ion-button>
+        </ion-item>
+      </ion-card>
+
+    </div>
+  </div>
+
+  <!-- MODAL PARA NUEVA PUBLICACIÓN -->
+  <ion-modal [isOpen]="isModalOpen" (willDismiss)="setOpen(false)">
+    <ng-template>
+      <ion-header>
+        <ion-toolbar color="tertiary">
+          <ion-buttons slot="start">
+            <ion-button (click)="setOpen(false)">Cancelar</ion-button>
+          </ion-buttons>
+          <ion-title>Nuevo Post</ion-title>
+          <ion-buttons slot="end">
+            <ion-button (click)="submitPost()" [strong]="true">Publicar</ion-button>
+          </ion-buttons>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content class="ion-padding">
+        <ion-list lines="full">
+          <ion-item>
+            <ion-label position="floating">Título</ion-label>
+            <ion-input type="text" [(ngModel)]="newPost.title" placeholder="Escribe un título interesante"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label position="floating">Contenido</ion-label>
+            <ion-textarea [(ngModel)]="newPost.content" rows="6" placeholder="¿Qué quieres compartir hoy?"></ion-textarea>
+          </ion-item>
+          <ion-item>
+            <ion-label position="floating">URL de Imagen (Opcional)</ion-label>
+            <ion-input type="url" [(ngModel)]="newPost.image_url" placeholder="https://ejemplo.com/imagen.jpg"></ion-input>
+          </ion-item>
+        </ion-list>
+      </ion-content>
+    </ng-template>
+  </ion-modal>
+
+</ion-content>

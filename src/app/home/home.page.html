@@ -1,0 +1,102 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="tertiary">
+    <ion-title>Isaac Forum</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="container ion-padding">
+    <section class="mb-5">
+      <h2 class="text-accent ion-margin-bottom">
+        <ion-icon name="information-circle"></ion-icon> Sobre el foro
+      </h2>
+      <p class="lead">
+        Este foro está dedicado a los jugadores de "The Binding of Isaac". Aquí puedes compartir tus experiencias, descubrir estrategias y discutir sobre el juego.
+      </p>
+    </section>
+
+    <section class="my-5">
+      <h2 class="text-accent ion-margin-bottom">
+        <ion-icon name="compass"></ion-icon> Explora la información del juego
+      </h2>
+
+      <ion-grid>
+        <ion-row class="g-4">
+          
+          <ion-col size="12" size-md="4" size-sm="6">
+            <ion-card routerLink="/tabs/info" class="section-card ion-text-center">
+              <ion-card-content class="p-4">
+                <div class="icon-wrapper mb-3">
+                  <ion-icon name="trophy"></ion-icon>
+                </div>
+                <ion-card-title class="card-title text-accent">Logros</ion-card-title>
+                <p class="card-text">Descubre cómo desbloquear todos los logros del juego</p>
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+
+          <ion-col size="12" size-md="4" size-sm="6">
+            <ion-card routerLink="/tabs/info" class="section-card ion-text-center">
+              <ion-card-content class="p-4">
+                <div class="icon-wrapper mb-3">
+                  <ion-icon name="help-circle"></ion-icon> 
+                </div>
+                <ion-card-title class="card-title text-accent">Monstruos/Cartas/Runas</ion-card-title>
+                <p class="card-text">Información sobre enemigos y objetos coleccionables</p>
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+          
+          <ion-col size="12" size-md="4" size-sm="6">
+            <ion-card routerLink="/tabs/info" class="section-card ion-text-center">
+              <ion-card-content class="p-4">
+                <div class="icon-wrapper mb-3">
+                  <ion-icon name="skull"></ion-icon>
+                </div>
+                <ion-card-title class="card-title text-accent">Jefes</ion-card-title>
+                <p class="card-text">Estrategias para vencer a todos los jefes del juego</p>
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+          
+          <ion-col size="12" size-md="4" size-sm="6">
+            <ion-card routerLink="/tabs/info" class="section-card ion-text-center">
+              <ion-card-content class="p-4">
+                <div class="icon-wrapper mb-3">
+                  <ion-icon name="person"></ion-icon>
+                </div>
+                <ion-card-title class="card-title text-accent">Personajes</ion-card-title>
+                <p class="card-text">Guías y consejos para cada personaje jugable</p>
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+          
+          <ion-col size="12" size-md="4" size-sm="6">
+            <ion-card routerLink="/tabs/info" class="section-card ion-text-center">
+              <ion-card-content class="p-4">
+                <div class="icon-wrapper mb-3">
+                  <ion-icon name="fitness"></ion-icon>
+                </div>
+                <ion-card-title class="card-title text-accent">Píldoras/Transformaciones</ion-card-title>
+                <p class="card-text">Todo sobre píldoras y transformaciones de personajes</p>
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+          
+          <ion-col size="12" size-md="4" size-sm="6">
+            <ion-card routerLink="/tabs/info" class="section-card ion-text-center">
+              <ion-card-content class="p-4">
+                <div class="icon-wrapper mb-3">
+                  <ion-icon name="layers"></ion-icon>
+                </div>
+                <ion-card-title class="card-title text-accent">Niveles/Trinkets</ion-card-title>
+                <p class="card-text">Explora todos los niveles y objetos pasivos</p>
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+
+        </ion-row>
+      </ion-grid>
+    </section>
+  </div>
+</ion-content>

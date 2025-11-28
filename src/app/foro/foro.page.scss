@@ -1,0 +1,95 @@
+// Fondo general
+// ion-content {
+//  // Un gris muy claro para el fondo
+// }
+
+// Animación de entrada suave
+.fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+// Estilo de la tarjeta de Post
+.post-card {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 16px;
+  background: black;
+  overflow: hidden;
+
+  ion-card-header {
+    padding-bottom: 8px;
+  }
+
+  .post-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+
+  .post-date {
+    font-size: 0.8rem;
+    color: var(--ion-color-medium);
+  }
+
+  .post-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #ffffff;
+  }
+
+  .post-content {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #ffffff;
+    white-space: pre-wrap; // Respeta los saltos de línea del texto
+  }
+}
+
+// Contenedor de imagen
+.post-image-container {
+  margin-top: 12px;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #f0f0f0;
+  
+  img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover; // Recorta la imagen para llenar el espacio sin deformar
+    display: block;
+  }
+}
+
+// Botones de acción al pie de la tarjeta
+.post-actions {
+  border-top: 1px solid #f0f0f0;
+  display: flex;
+  padding: 4px 8px;
+  
+  ion-button {
+    text-transform: none;
+    font-weight: 500;
+  }
+}
+
+// Tarjeta de estado vacío
+.empty-state-card {
+  margin-top: 40px;
+  border: 2px dashed var(--ion-color-medium);
+  box-shadow: none;
+  background: transparent;
+
+  .empty-icon-wrapper {
+    font-size: 4rem;
+    color: var(--ion-color-medium);
+    margin-bottom: 10px;
+    opacity: 0.5;
+  }
+}
