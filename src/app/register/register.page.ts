@@ -29,7 +29,7 @@ export class RegisterPage implements OnInit {
   isLoading: boolean = false;
 
   // URL de tu backend Node.js
-  private API_URL = 'http://localhost:3001';
+  private API_URL = 'http://adequate-consideration-production-c314.up.railway.app';
 
   constructor(
     private http: HttpClient,
