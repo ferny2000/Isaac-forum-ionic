@@ -28,7 +28,7 @@ export class LoginPage implements OnInit {
   isLoading: boolean = false; 
 
   // URL del backend Node.js
-  private API_URL = 'http://adequate-consideration-production-c314.up.railway.app'; 
+  private API_URL = 'http://localhost:3001'; 
 
   constructor(
     private http: HttpClient, 

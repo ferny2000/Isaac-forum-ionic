@@ -31,8 +31,8 @@ export class InfoPage implements OnInit {
   searchTerm: string = '';
   isLoading: boolean = true; // Para mostrar un spinner mientras carga
 
-  // 👇 Tu API del backend
-  private API_URL = 'http://adequate-consideration-production-c314.up.railway.app'; 
+  //  Tu API del backend
+  private API_URL = 'http://localhost:3001'; 
 
   constructor(private http: HttpClient) { } 
 

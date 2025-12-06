@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class ApiService {
 
-  private baseURL = 'http://adequate-consideration-production-c314.up.railway.app'; // Cambia esto si el backend está en otro puerto
+  private baseURL = 'http://localhost:3001'; // Cambia esto si el backend está en otro puerto
 
   constructor(private http: HttpClient) { }
 

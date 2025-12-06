@@ -30,7 +30,7 @@ export class ForoPage implements OnInit {
     author_id: 1 
   };
   
-  private API_URL = 'http://adequate-consideration-production-c314.up.railway.app'; 
+  private API_URL = 'http://localhost:300 1'; 
 
   constructor(
     private http: HttpClient,
