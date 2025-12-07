@@ -11,14 +11,14 @@ import { RouterModule } from '@angular/router';
   styleUrls: ['./register.page.scss'],
   standalone: true,
   imports: [
-    IonicModule, 
+    IonicModule,
     CommonModule,
     FormsModule,
     RouterModule
   ]
 })
 export class RegisterPage implements OnInit {
-  
+
   credentials = {
     username: '',
     email: '',
@@ -28,8 +28,8 @@ export class RegisterPage implements OnInit {
 
   isLoading: boolean = false;
 
-  // URL de tu backend Node.js
-  private API_URL = 'http://localhost:3001';
+  // Usa el enlace público que te dio Railway para tu Backend
+  private API_URL = 'https://adequate-consideration-production-c314.up.railway.app';
 
   constructor(
     private http: HttpClient,
@@ -49,12 +49,12 @@ export class RegisterPage implements OnInit {
 
     if (this.isLoading) return;
     this.isLoading = true;
-    
+
     // 2. Enviar datos a /auth/register
     // Nota: enviamos 'credentials'. El backend ignorará 'confirmPassword' si no lo usa,
     // pero contiene username, email y password que es lo importante.
     this.http.post<any>(`${this.API_URL}/auth/register`, this.credentials).subscribe({
-      
+
       // ÉXITO
       next: (response) => {
         this.isLoading = false;
@@ -71,10 +71,10 @@ export class RegisterPage implements OnInit {
       error: (err: HttpErrorResponse) => {
         this.isLoading = false;
         console.error('Error de registro:', err);
-        
+
         let msg = 'Error al conectar con el servidor.';
         if (err.status === 400) msg = 'Faltan datos o el usuario ya existe.';
-        
+
         this.showToast(msg, 'danger');
       }
     });

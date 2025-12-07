@@ -7,7 +7,8 @@ import { Observable } from 'rxjs';
 })
 export class ApiService {
 
-  private baseURL = 'http://localhost:3001'; // Cambia esto si el backend está en otro puerto
+  // 👇 AQUÍ ES DONDE PONES TU ENLACE DE RAILWAY:
+  private baseURL = 'https://adequate-consideration-production-c314.up.railway.app'; 
 
   constructor(private http: HttpClient) { }
 
