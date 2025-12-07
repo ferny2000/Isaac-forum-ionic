@@ -11,32 +11,33 @@ import { RouterModule } from '@angular/router';
   styleUrls: ['./foro.page.scss'],
   standalone: true,
   imports: [
-    IonicModule, 
-    CommonModule, 
+    IonicModule,
+    CommonModule,
     FormsModule,
-    RouterModule 
+    RouterModule
   ]
 })
 export class ForoPage implements OnInit {
-  
+
   posts: any[] = [];
   isLoading: boolean = true;
-  isModalOpen: boolean = false; 
+  isModalOpen: boolean = false;
 
   newPost = {
     title: '',
     content: '',
     image_url: '', // Aquí guardaremos la imagen en Base64
-    author_id: 1 
+    author_id: 1
   };
-  
-  private API_URL = 'http://localhost:300 1'; 
+
+  // Usa el enlace público que te dio Railway para tu Backend
+  private API_URL = 'https://adequate-consideration-production-c314.up.railway.app';
 
   constructor(
     private http: HttpClient,
     private toastCtrl: ToastController,
     private loadingCtrl: LoadingController
-  ) { } 
+  ) { }
 
   ngOnInit() {
     this.loadPosts();
@@ -48,7 +49,7 @@ export class ForoPage implements OnInit {
 
   loadPosts(event?: any) {
     if (!event) this.isLoading = true;
-    
+
     this.http.get<any[]>(`${this.API_URL}/posts`).subscribe({
       next: (data) => {
         this.posts = data;
@@ -96,9 +97,9 @@ export class ForoPage implements OnInit {
     this.http.post(`${this.API_URL}/posts`, this.newPost).subscribe({
       next: (response: any) => {
         this.showToast('¡Publicación creada exitosamente!', 'success');
-        this.setOpen(false); 
-        this.loadPosts(); 
-        
+        this.setOpen(false);
+        this.loadPosts();
+
         this.newPost = { title: '', content: '', image_url: '', author_id: 1 };
       },
       error: (err) => {
@@ -107,13 +108,13 @@ export class ForoPage implements OnInit {
       }
     });
   }
-  
+
   getPlaceholderPosts(): any[] {
     return [
       { id: 1, title: '¡Bienvenido al nuevo foro!', content: 'Esta es una publicación de prueba mientras construimos el Backend.', author: 'Sistema', created_at: new Date().toISOString(), image_url: '' },
     ];
   }
-  
+
   async showToast(message: string, color: 'success' | 'danger' | 'warning' | 'secondary') {
     const toast = await this.toastCtrl.create({
       message: message,

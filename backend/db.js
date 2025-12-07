@@ -1,23 +1,25 @@
 const mysql = require('mysql2/promise');
 
+// Configuración robusta: busca la variable o usa 'railway' por defecto
 const pool = mysql.createPool({
-  host: process.env.MYSQLHOST,         // Variable de Railway (sin guion bajo)
-  user: process.env.MYSQLUSER,         // Variable de Railway (sin guion bajo)
-  password: process.env.MYSQLPASSWORD, // Variable de Railway (sin guion bajo)
-  database: process.env.MYSQLDATABASE, // Variable de Railway (sin guion bajo)
-  port: process.env.MYSQLPORT || 3306, // Puerto de la DB (3306)
+  host: process.env.MYSQLHOST || process.env.MYSQL_HOST,
+  user: process.env.MYSQLUSER || process.env.MYSQL_USER,
+  password: process.env.MYSQLPASSWORD || process.env.MYSQL_PASSWORD,
+  // 👇 AQUÍ ESTÁ EL ARREGLO MÁGICO:
+  database: process.env.MYSQLDATABASE || process.env.MYSQL_DATABASE || 'railway', 
+  port: process.env.MYSQLPORT || process.env.DB_PORT || 3306,
   waitForConnections: true,
   connectionLimit: 10,
 });
 
-// Mensaje opcional para confirmar conexión en consola (solo en desarrollo)
+// Verificación de conexión al iniciar
 pool.getConnection()
   .then(connection => {
-    console.log('✅ Conectado exitosamente a la Base de Datos de Railway');
+    console.log('✅ Conectado exitosamente a la Base de Datos:', connection.config.database);
     connection.release();
   })
   .catch(err => {
-    console.error('❌ Error al conectar a la Base de Datos:', err.message);
+    console.error('❌ Error fatal de conexión:', err.message);
   });
 
 module.exports = pool;
